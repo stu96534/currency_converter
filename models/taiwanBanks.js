@@ -15,10 +15,10 @@ module.exports = (sequelize, DataTypes) => {
   }
   TaiwanBank.init({
     name: DataTypes.STRING,
-    cash_buy: DataTypes.STRING,
-    cash_sell: DataTypes.STRING,
-    sight_buy: DataTypes.STRING,
-    sight_sell: DataTypes.STRING
+    cashBuy: DataTypes.STRING,
+    cashSell: DataTypes.STRING,
+    sightBuy: DataTypes.STRING,
+    sightSell: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'TaiwanBank',
