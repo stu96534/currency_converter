@@ -6,8 +6,6 @@ const currencyController = {
   getTaiwanBankRate: async (req, res, next) => {
     try {
 
-      taiwanBank(updateRate)
-
       const currencies = await TaiwanBank.findAndCountAll({})
 
       const data = currencies.rows.map(currency => ({
