@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js --env production",
+    "start": "NODE_ENV=production node app.js",
     "dev": "nodemon app.js",
     "seed": "node ./lib/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
