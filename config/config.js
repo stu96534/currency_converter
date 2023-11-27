@@ -21,6 +21,7 @@ module.exports = {
     database: process.env.PROD_DATABASE,
     host: process.env.PROD_HOST,
     port: process.env.PROD_PORT,
-    dialect: "mysql"
+    dialect: "mysql",
+    dialectModule:require('mysql2')
   }
 };
