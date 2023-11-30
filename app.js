@@ -9,7 +9,8 @@ const app = express()
 
 const corsOptions = {
   origin: [
-    'http://localhost:8080'
+    'http://localhost:8080',
+    'https://currency-converter-front-btmqv2j4i-stu96534.vercel.app'
   ],
   methods: [
     'GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'PATCH', 'OPTIONS'
