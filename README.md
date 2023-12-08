@@ -1,7 +1,7 @@
 # 貨幣轉換器
 以爬蟲技術取得台灣銀行貨幣匯率資料，用前後端分離方式打造，此為後端專案。
 - 部屬網站為clever cloud
-- 前端專案連結：
+- 前端專案連結：https://github.com/stu96534/currency_converter_front.git
 
 ## 功能介紹
 ### 貨幣查詢
@@ -15,13 +15,13 @@
 1.開啟終端機(Terminal)cd 到存放專案本機位置並執行:
 
 ```
-git clone 
+git clone https://github.com/stu96534/currency_converter.git
 ```
 
 2.cd 至本專案資料夾:
 
 ```
-cd 
+cd currency_converter
 ```
 
 3.下載套件:
