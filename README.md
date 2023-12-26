@@ -1,6 +1,7 @@
 # 貨幣轉換器
 以爬蟲技術取得台灣銀行貨幣匯率資料，用前後端分離方式打造，此為後端專案。
-- 部屬網站為clever cloud
+- 將專案部署至docker產生image，再將image匯至Artifact Registry
+- 部署網站為google cloud run
 - 前端專案連結：https://github.com/stu96534/currency_converter_front.git
 
 ## 功能介紹
